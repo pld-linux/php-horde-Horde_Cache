@@ -4,7 +4,7 @@
 Summary:	%{pearname} - Horde Caching API
 Name:		php-horde-Horde_Cache
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
@@ -20,11 +20,12 @@ Requires:	php-hash
 Requires:	php-horde-Horde_Exception < 2.0.0
 Requires:	php-horde-Horde_Util < 2.0.0
 Requires:	php-pear >= 4:1.3.6-2
-Suggests:	php-apc
 Suggests:	php-eaccelerator
 Suggests:	php-horde-Horde_Db
 Suggests:	php-horde-Horde_Log
 Suggests:	php-horde-Horde_Memcache
+# http://bugs.horde.org/ticket/10031
+Suggests:	php-pecl-APC
 Suggests:	php-pecl-lzf
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
