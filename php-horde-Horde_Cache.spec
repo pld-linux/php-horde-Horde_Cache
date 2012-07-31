@@ -3,12 +3,12 @@
 %include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Caching API
 Name:		php-horde-Horde_Cache
-Version:	1.0.4
+Version:	1.0.5
 Release:	1
 License:	LGPL
 Group:		Development/Languages/PHP
 Source0:	http://pear.horde.org/get/%{pearname}-%{version}.tgz
-# Source0-md5:	14c4d5c8dfd08b43fc8adf4b2e8e50e8
+# Source0-md5:	301b46849b96698077a569dcdb238851
 URL:		https://github.com/horde/horde/tree/master/framework/Cache/
 BuildRequires:	php-channel(pear.horde.org)
 BuildRequires:	php-packagexml2cl
