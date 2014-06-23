@@ -25,8 +25,8 @@ Suggests:	php-horde-Horde_Db
 Suggests:	php-horde-Horde_Log
 Suggests:	php-horde-Horde_Memcache
 # http://bugs.horde.org/ticket/10031
-Suggests:	php-pecl-APC
-Suggests:	php-pecl-lzf
+Suggests:	php(apc)
+Suggests:	php(lzf)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
