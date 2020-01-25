@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	Horde_Cache
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - Horde Caching API
 Name:		php-horde-Horde_Cache
 Version:	1.0.5
